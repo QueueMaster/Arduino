@@ -9,9 +9,9 @@ int svl=0; //left sensor value
 int led=13; //enable led light
 int enr=3; //enable right motor
 int enl=5; //enable left motor
-int speeds=100 //straight speed (0-255)
-int speedt=255 //turn speed (0-255)
-int delayt=20 //turn delay (20 ms)
+int speeds=100; //straight speed (0-255)
+int speedt=255; //turn speed (0-255)
+int delayt=20; //turn delay (20 ms)
 
 void setup() //sets up outputs and inputs
 {
